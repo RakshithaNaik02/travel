@@ -1,0 +1,46 @@
+.c-form{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+}
+
+.c-form form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.c-form input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 4rem;
+
+}
+
+.c-form textarea{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem
+    
+   
+}
+
+.c-form button{
+    display: inline;
+    background-color:lightgoldenrodyellow;
+}
+
+@media screen and (max-width:850px){
+    .c-form{
+        margin: 4rem 2rem;
+    }
+    .c-form form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+
+
+}
